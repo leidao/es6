@@ -21,7 +21,7 @@ function getValue() {
     // todo。。。
   });
 }
-function co(genterator) {
+function co(genterator) {  //自执行器
   return new Promise((resolve, reject) => {
     let it = genterator()
     function next(val) {
